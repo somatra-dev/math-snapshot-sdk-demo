@@ -1,0 +1,5 @@
+@baseUrl = http://localhost:8080
+
+### Math starter probe: add two numbers
+GET {{baseUrl}}/api/math/add?a=1.5&b=2.25
+Accept: application/json
